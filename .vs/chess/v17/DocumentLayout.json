@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\cpp_projects\\chess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|C:\\cpp_projects\\chess\\chess\\chess_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|solutionrelative:chess\\chess_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|C:\\cpp_projects\\chess\\chess\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|solutionrelative:chess\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|C:\\cpp_projects\\chess\\chess\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|solutionrelative:chess\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|C:\\cpp_projects\\chess\\chess\\chess_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|solutionrelative:chess\\chess_menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{950AF0D1-0244-4A6F-8C46-0ED1CA3026CC}|chess\\chess.vcxproj|C:\\cpp_projects\\chess\\chess\\chess_menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,25 +50,24 @@
               "RelativeToolTip": "chess\\classic_game.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-18T08:46:08.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T08:46:08.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Entity.h",
               "DocumentMoniker": "C:\\cpp_projects\\chess\\chess\\Entity.h",
               "RelativeDocumentMoniker": "chess\\Entity.h",
               "ToolTip": "C:\\cpp_projects\\chess\\chess\\Entity.h",
               "RelativeToolTip": "chess\\Entity.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-16T14:32:23.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Entity.cpp",
               "DocumentMoniker": "C:\\cpp_projects\\chess\\chess\\Entity.cpp",
               "RelativeDocumentMoniker": "chess\\Entity.cpp",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "chess\\Entity.cpp",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAAGMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-16T14:32:13.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T14:32:13.829Z"
             },
             {
               "$type": "Document",
@@ -89,25 +87,24 @@
               "RelativeToolTip": "chess\\chess_menu.h",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-16T14:25:07.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T14:25:07.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "chess_menu.cpp",
               "DocumentMoniker": "C:\\cpp_projects\\chess\\chess\\chess_menu.cpp",
               "RelativeDocumentMoniker": "chess\\chess_menu.cpp",
               "ToolTip": "C:\\cpp_projects\\chess\\chess\\chess_menu.cpp",
               "RelativeToolTip": "chess\\chess_menu.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEEAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-16T14:23:24.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\cpp_projects\\chess\\chess\\main.cpp",
               "RelativeDocumentMoniker": "chess\\main.cpp",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "chess\\main.cpp",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-16T09:13:28.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T09:13:28.772Z"
             }
           ]
         }

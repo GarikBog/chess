@@ -18,19 +18,19 @@ class Play_button : public ClickbleEntity {
 
 public:
 	int click(std::pair<double, double> mouse_pos);
-	Play_button(std::pair<double, double> pos, std::pair<int, int> size, std::string texture_file, sf::Rect<int> rectangle);
+	Play_button(std::pair<double, double> pos, sf::Rect<int> rectangle, std::string texture_file);
 };
 
-class Exit_button : public ClickbleEntity {
+class Exit_button : public ClickbleEntity  {
 public:
 	int click(std::pair<double, double> mouse_pos);
-	Exit_button(std::pair<double, double> pos, std::pair<int, int> size, std::string texture_file, sf::Rect<int> rectangle);
+	Exit_button(std::pair<double, double> pos, sf::Rect<int> rectangle, std::string texture_file);
 };
 
 class Settings_button : public ClickbleEntity {
 public:
 	int click(std::pair<double, double> mouse_pos);
-	Settings_button(std::pair<double, double> pos, std::pair<int, int> size, std::string texture_file, sf::Rect<int> rectangle,sf::RenderWindow& window);
+	Settings_button(std::pair<double, double> pos, sf::Rect<int> rectangle, std::string texture_file,sf::RenderWindow& window);
 private:
 	void draw_settings();
 	sf::RenderWindow& window;

@@ -7,11 +7,12 @@
 
 
 /// Play_button
-int Play_button::click(std::pair<double, double> mouse_pos) {
+int Play_button::click(std::pair<double, double> mouse_pos)  {
     if (mouse_on(mouse_pos)) return 1; 
+    return -1;
 }
 
-Play_button::Play_button(std::pair<double, double> pos, std::pair<int, int> size, std::string texture_file, sf::Rect<int> rectangle) : ClickbleEntity(pos, rectangle,texture_file) {}
+Play_button::Play_button(std::pair<double, double> pos , sf::Rect<int> rectangle, std::string texture_file) : ClickbleEntity(pos, rectangle,texture_file) {}
 
 
 
@@ -23,9 +24,10 @@ int Exit_button::click(std::pair<double, double> mouse_pos) {
     if (mouse_on(mouse_pos)) {
         return 0;
     }
+    return -1;
 }
 
-Exit_button::Exit_button(std::pair<double, double> pos, std::pair<int, int> size, std::string texture_file, sf::Rect<int> rectangle): ClickbleEntity(pos, rectangle, texture_file) {
+Exit_button::Exit_button(std::pair<double, double> pos, sf::Rect<int> rectangle, std::string texture_file): ClickbleEntity(pos, rectangle, texture_file) {
 
 }
 
@@ -35,8 +37,9 @@ int Settings_button::click(std::pair<double, double> mouse_pos) {
     if (mouse_on(mouse_pos)) {
         draw_settings();
     }
+    return -1;
 }
-Settings_button::Settings_button(std::pair<double, double> pos, std::pair<int, int> size, std::string texture_file, sf::Rect<int> rectangle,sf::RenderWindow& window) : ClickbleEntity(pos, rectangle, texture_file), window(window) {
+Settings_button::Settings_button(std::pair<double, double> pos, sf::Rect<int> rectangle, std::string texture_file,sf::RenderWindow& window): ClickbleEntity(pos, rectangle, texture_file), window(window) {
 
 }
 
@@ -61,8 +64,13 @@ Chess_menu::Chess_menu(Object bg, Play_button pl, Exit_button ex, Settings_butto
 
 int chess_menu() {
 
-    sf::RenderWindow window(sf::VideoMode(200, 200), "Chess_menu");
-    Object background();
+    sf::RenderWindow window(sf::VideoMode(1000, 1000), "Chess_menu");
+    Object background({ 1,1 }, { 0,0,200,200 }, "textures/background.png");
+    Play_button play({ 50,50 }, { 0,0,50,100 }, "textures/background.png");
+    Exit_button exit({ 150,150 }, { 0,0,45,45 }, "textures/background.png");
+    Settings_button settings({ 5,150 }, { 0,0,45,45 }, "textures/background.png", window);
+
+    Chess_menu menu(background, play, exit, settings);
 
     while (window.isOpen())
     {
@@ -76,6 +84,7 @@ int chess_menu() {
         }
 
         window.clear();
+        menu.draw(window);
         window.display();
     }
 

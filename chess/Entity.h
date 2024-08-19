@@ -71,7 +71,7 @@ class ClickbleEntity : public Entity {
 public:
 	ClickbleEntity(std::pair<double, double> pos, sf::Rect<int> rectangle, std::string texture_file);
 	bool mouse_on(std::pair<double, double> mouse_pos);
-	virtual int click(std::pair<double, double> mouse_pos);
+	int click(std::pair<double, double> mouse_pos);
 
 
 };

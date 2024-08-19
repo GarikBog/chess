@@ -48,5 +48,8 @@
     <ClInclude Include="Entity.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="classic_game.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
